@@ -129,6 +129,8 @@ GEM
       has_scope (~> 0.6.0.rc)
       railties (>= 3.2, < 5)
       responders
+    intercom-rails (0.3.4)
+      activesupport (> 3.0)
     jbuilder (2.6.0)
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
@@ -309,6 +311,7 @@ DEPENDENCIES
   gemoji (~> 2.1.0)
   github-markdown (~> 0.6.7)
   html-pipeline (~> 1.11.0)
+  intercom-rails
   jbuilder (~> 2.0)
   jquery-rails
   mandrill-api (= 1.0.52)
