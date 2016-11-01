@@ -11,8 +11,6 @@ Rails.application.routes.draw do
 
   root 'project#index'
 
-  get '/work' => 'pages#work'
-
   resources :project do
     resources :task, only: [:show]
   end
